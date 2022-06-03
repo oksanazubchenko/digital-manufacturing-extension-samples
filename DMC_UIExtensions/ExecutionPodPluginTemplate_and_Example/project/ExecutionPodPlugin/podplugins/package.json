@@ -1,5 +1,5 @@
 {
-  "name": "podplugins",
+  "name": "executionpodplugins",
   "version": "0.0.1",
   "description": "",
   "devDependencies": {},
@@ -7,5 +7,6 @@
     "@sap/approuter": "11.0.1"
   },
   "scripts": {
+    "start": "node node_modules/@sap/approuter/approuter.js"
   }
 }
